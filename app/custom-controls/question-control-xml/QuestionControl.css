@@ -1,0 +1,23 @@
+.question{
+    padding: 10;
+    color: white;
+    background-color: darkGray;
+}
+
+.answer{
+    padding: 10;
+    color: white;
+    background-color: #E3E3E3;
+}
+
+.selected-answer{
+    padding: 10;
+    color: white;
+    background-color: orange;
+}
+
+.separator{
+    height: 1;
+    background-color: lightGray;
+    width: 100%;
+}

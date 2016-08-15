@@ -1,0 +1,14 @@
+<StackLayout>
+  <Label text="How many colors are there?" textWrap="true"
+      class="question"/>
+  <StackLayout>
+    <Label text="Infinity" textWrap="true" class="answer"
+        tap="onAnswerTap"/>
+    <StackLayout class="separator"/>
+    <Label text="Three Only" textWrap="true" class="answer"
+        tap="onAnswerTap"/>
+    <StackLayout class="separator"/>
+    <Label text="There are no colors" textWrap="true" class="answer"
+        tap="onAnswerTap"/>
+  </StackLayout>
+</StackLayout>

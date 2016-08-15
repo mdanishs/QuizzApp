@@ -1,3 +1,4 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" >
-  <!-- UI Decalration -->
+<Page
+    xmlns:CustomControls="custom-controls/question-control-xml">
+    <CustomControls:QuestionControl/>
 </Page>
