@@ -1,4 +1,7 @@
-<Page
-    xmlns:CustomControls="custom-controls/question-control-xml">
-    <CustomControls:QuestionControl/>
+<Page loaded="onLoaded"
+    xmlns:CustomControls="custom-controls/question-control-code/QuestionControl">
+    <StackLayout>
+        <CustomControls:QuestionControl id='question-1' question="{{question1}}" answers="{{answers1}}"/>
+        <CustomControls:QuestionControl question="{{question2}}" answers="{{answers2}}"/>
+    </StackLayout>
 </Page>

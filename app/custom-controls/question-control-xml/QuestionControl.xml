@@ -1,4 +1,4 @@
-<StackLayout>
+<StackLayout loaded="onLoaded">
   <Label text="How many colors are there?" textWrap="true"
       class="question"/>
   <StackLayout>

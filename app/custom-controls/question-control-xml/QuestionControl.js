@@ -5,6 +5,7 @@ var control = null, selectedAnswerView = null;
 exports.onLoaded = function(args){
     //assigning the control object to be used in other functions
     control = args.object;
+    console.log(control.question);
 }
 
 exports.onAnswerTap = function(args){
